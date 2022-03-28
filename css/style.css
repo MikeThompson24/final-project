@@ -1,0 +1,199 @@
+/* ------------------------ Universal Styling ---------------- */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    /* I added the font line. */
+    font-family: popins;
+}
+
+
+/* ------------------------HEADER AREA------------------------ */
+header {
+    width: 100%;
+    height: 80Px;
+    display: block;
+    background-color: #F1F1F2;
+    /* position: absolute;  */
+    top: 0;
+}
+
+.inner_header {
+    /* Note:  Set the width to 90%.
+    This will make the header responsive
+    without using flex.*/
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    /* Note:  Set Background color ro red
+            While designing.  It will
+            allow you to see your work area */
+    background-color: #F1F1F2;
+}
+        /* --------------Header Logo------------ */
+.logo_container_head {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container_head img {
+    /* color: White; */
+    height: 100%;
+    width: 110px;
+    display: table-cell;
+    vertical-align: middle;
+}
+        /* ---------------- Header Nav ----------- */
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+            /* Note:  Paddding for last menu item and border */
+.navigation a:last-child {
+    padding-right: 5px;
+}
+    
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: #2299AC;
+    /* font: popins; */
+}
+    /* Note Clearing float elements from header */
+.clearfix-header {
+    clear: both;
+}
+
+/*------------------------- Main Sections -------------------- */
+.hero_image {
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+
+.hero_image img {
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    padding:  px 0;
+}
+
+main {
+    background-color: white;
+}
+
+
+
+/* ------------------------ Footer Area -----------------------*/
+footer {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding: 70px 0;
+    box-sizing: border-box;
+    background-color: #F1F1F2;
+    /* position: absolute;  */
+    bottom: 0;
+}
+
+.inner_footer {
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+}
+
+.inner_footer .logo_container_foot {
+    width: 35%;
+    float: left;
+    display: block;
+}
+
+.inner_footer .logo_container_foot img{
+    width: 90px;
+    height: auto;
+}
+
+.inner_footer .footer_third {
+    width: calc(21.6666666667% - 20px);
+    margin-right: 10px;
+    float: left;
+    height: 100%;
+}
+
+.inner_footer .footer_third:last-child {
+    margin-right: 0;
+}
+
+.inner_footer .footer_third h2 {
+    font-family: popins;
+    font-size: 22px;
+    color: #45433C;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.inner_footer .footer_third a {
+    font-family: popins;
+    font-size: 18px;
+    color: #2299AC;
+    display: block;
+    font-weight: 200;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+a:visited {
+    color: #45433C;
+}
+
+a:hover{
+    color: #45433C;
+    text-decoration: underline;
+    
+}
+
+    /* Note:  Added this for a discription*/
+.inner_footer .footer_third p {
+    font: popins;
+    font-size: 18px;
+    color: #45433C;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    font-weight: 200;
+    width: 100;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.inner_footer .footer_third li {
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 20px;
+}
+
+.inner_footer .footer_third span {
+    color: #45433C;
+    font-family: popins;
+    font-size: 16px;
+    font-weight: 200px;
+    width: 100%;
+    padding-top: 20px;
+}
